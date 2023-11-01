@@ -6,4 +6,4 @@ The Open Lighting is a kind of smart key which controls lights by diffrent metho
 Also they all make a network which communicate on power line. Actually, it is a wired network.
 Fig.1 shows the block diagram of the Open Lighting. It consist diffrent parts like: BLE, PLC Modem, Dimmer and power supply. All will be described in detailes in the following.
 <br/><br/>
-![alt text](https://github.com/hosein-mokarian/open-lighting/tree/main/Fig/me.jpg?raw=true)
+![alt text](https://github.com/hosein-mokarian/open-lighting/blob/main/Fig/me.jpg?raw=true)
