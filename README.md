@@ -67,8 +67,20 @@ processor unit. Those algorithms run once during the system setup, not requiring
 <h3>AC Coupler</h3>
 <br/><br/>
 <h3>Zero Crossing</h3>
+<br/>
+As we have already mentioned that there are many ways to design a Zero Crossing Detector. Here, in the below circuit we are using an opto-coupler for the same. By observing the output waveform you can see that the output waveform is getting HIGH only when the input AC wave crosses zero every time.
+<br/>
+
+
 <br/><br/>
 <h3>Capacitive Touch Sensor</h3>
+<br/>
+Capacitive touch sensing is a unique human-machine interface technology that enables the creation ofdifferentiated user interfaces that can bring value to a wide variety of products. With capacitive sensing,mechanical switches and knobs can be replaced with elegant buttons, sliders, and scroll wheels thatintegrate seamlessly into the enclosure of a product to simultaneously improve the aesthetics andfunctionality of the product.These aesthetic and functional improvements come with a different set of challenges for product designers. For example, capacitive touch requires more attention to detail in the PCB design than a simple mechanical switch does. It also requires more firmware to determine the state of the user interface. Factors such as these can make capacitive touch seem like a challenging technology to develop with. However, the reality is that capacitive touch is not extremely challenging—it is just new and different. Like many other technologies, the challenges and risks associated with getting a capacitive touch design concept through development and into production can be reduced by having a proven development flow inplace. If you are a designer who is new to capacitive touch, or an experienced designer that is new to TI's CapTIvate technology for capacitive sensing, this document provides a step-by-step design flow to go from first concept to mass roduction. In addition, this document provides checklists at specific points in the development flow to reduce the risk of unforseen issues late in the development cycle.
+<br/>
+
+
+
+
 <br/><br/>
 <h3>LED Driver</h3>
 <br/><br/>
