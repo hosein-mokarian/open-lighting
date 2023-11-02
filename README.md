@@ -39,9 +39,30 @@ PCB cross section at antennae area
 <br/>
 Impedance matching
 <br/>
+Meander-like PCB antenna can be tuned to the required 50 Ω impedance by matching the impedance circuitry
+with the π topology. In Figure 2, the impedance matching area is marked with a dashed line. Under nominal
+conditions, this antenna exhibits and impedance very close to the required nominal impedance (50 Ω).
+The following changes affect the radiation impedance of the PCB antenna:
+• slight board size variation
+• metal shielding
+• use of plastic cover
+• presence of other components in proximity of the antenna
+
 
 <br/><br/>
 <h3>PLC Modem</h3>
+Simple and Low-Cost PLC Modem for IoT Applications
+<br/>
+A vital part of any IoT device is its communication system, since hardware and protocols are required for robust and secure communication between the connected devices and the database. Additionally, an important requirement for IoT communication is to have the lowest cost possible, allowing it to be applied in simple and inexpensive devices, such as smart meters, lights, and simple appliances, such as coffee makers.
+One alternative to the wireless technologies in IoT is Power Line Communication (PLC). PLC uses the existing electrical wiring to transmit digital signals between devices attached to the power line. The main advantage of PLC is its low cost, since it does not require the installation of a communication infrastructure. Furthermore, PLC is not subjected to interference due to obstacles, such as walls and furniture, or other communication links, such as radio frequency (Wi-Fi, Bluetooth, ZigBee). These features make PLC, in many cases, the best solution for IoT applications.
+Many IoT devices, such as smart meters and presence sensors, do not require high data rate communication. Three design solutions were fundamental to achieve a low cost: (i) full implementation of the modulation and demodulation electronic circuitry with inexpensive components: transistors, resistors, capacitors, and inductors; (ii) implementation of simple communication protocols – not requiring digital processor neither complex filter; and (iii) communication through neutral and ground wires – eliminating the need for complex isolation circuitry.
+The proposed PLC modem employs a simple transceiver based on communication through neutral-ground wires. The ground and neutral conductors were chosen because there is no load between them, resulting in lower voltage drop of the coupled signal than in phase-neutral or in phase-ground. Furthermore, the noise levels between neutral-ground are often lower than those between phase-neutral. Another practical advantage of using neutral-ground communication is that the coupling circuit is simpler, since there is no significant voltage between those wires, eliminating the need for complex and expensive isolation circuitry.In the proposed PLC modem, the modulation and demodulation were fully mplemented in hardware with inexpensive discrete components, in contrast to previously discussed solutions that employed FPGA or DSP. The block diagram of the proposed PLC modem is shown in Fig. 1.The modem was connected to an embedded processor unit (a low-cost microcontroller – MCU) through universal asynchronous receiver-transmitter (UART) bus. Although the 
+processor unit is not part of the modem proposed, it was used to provide a square wave modulation carrier, and two digital signals to control the gain of the receiver amplifier.
+A pulse width modulation (PWM) module, which is embedded in most modern microcontrollers, was employed to generate the modulation carrier. Furthermore, to improve the noise robustness of the proposed modem, a set of simple algorithms to control the gain of the receiver amplifier and the frequency of the modulation carrier were implemented in the 
+processor unit. Those algorithms run once during the system setup, not requiring further power processing from the embedded system. 
+
+
+
 <br/><br/>
 <h3>AC Coupler</h3>
 <br/><br/>
@@ -49,9 +70,9 @@ Impedance matching
 <br/><br/>
 <h3>Capacitive Touch Sensor</h3>
 <br/><br/>
-<h3>LEDs</h3>
+<h3>LED Driver</h3>
 <br/><br/>
 <h3>Sensors</h3>
 <br/><br/>
-<h3>Power Suooly</h3>
+<h3>Power Supply</h3>
 <br/><br/>
