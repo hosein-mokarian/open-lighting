@@ -18,3 +18,40 @@ Users can trun off or on lights by capacitive touch sensor which is implwmwted o
 Some LEDs indicated the sesors borders.
 All circuit is powred by main AC or batteries.
 Sensors gather information from the environment and send it to MCU.
+
+<h3>BLE and PCB Antenna</h3>
+The BlueNRG-2 is a very low power Bluetooth Low Energy (BLE) single-mode system-on-chip. The BlueNRG-2 includes 256 kB of programming Flash memory, 24 kB of static RAM memory with retention (two 12 kB banks) and SPI, UART, I²C standard communication interface peripherals. It also features multifunction timers, watchdog, RTC and DMA controller. The BlueNRG-2 improves the BlueNRG sleep mode current consumption allowing a further increase in the battery lifetime of the applications.
+<br/>
+(AN5129) Low cost PCB antenna for 2.4 GHz radio: meander design for STM32WB Series:
+<br/>
+One of the main reasons to use a PCB (printed circuit board) antenna is the reduced overall cost of the radio module. Well
+designed and implemented PCB-printed antennas have a similar performance to the SMD (surface-mounted device) ceramic
+equivalence. In general, the footprint for a ceramic SMD antenna is smaller than that for a PCB-printed variant. For a PCB-printed antenna
+solution, the increased size of the PCB in relation to space required for the antenna means that the radio module is larger and
+the cost of the PCB increased. However the PCB solution is generally cheaper than a SMD ceramic antenna.
+<br/>
+The PCB antennas, including the electrical parameters of PCB materials used, are layout sensitive. 
+<br/>
+The electrical parameters and performance of the PCB antenna are also determined by the substrate used, in
+particular the thickness of the core and dielectric constants.
+<br/>
+PCB cross section at antennae area
+<br/>
+Impedance matching
+<br/>
+
+<br/><br/>
+<h3>PLC Modem</h3>
+<br/><br/>
+<h3>AC Coupler</h3>
+<br/><br/>
+<h3>Zero Crossing</h3>
+<br/><br/>
+<h3>Capacitive Touch Sensor</h3>
+<br/><br/>
+<h3>LEDs</h3>
+<br/><br/>
+<h3>Sensors</h3>
+<br/><br/>
+<h3>Power Suooly</h3>
+<br/><br/>
