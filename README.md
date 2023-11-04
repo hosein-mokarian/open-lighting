@@ -108,4 +108,16 @@ The current values depending on voltage for a normal red LED:
 <h3>Sensors</h3>
 <br/><br/>
 <h3>Power Supply</h3>
+A transformerless power supply circuit provides a low DC from the mains high voltage AC, without using any form of transformer or inductor. It works by using a high voltage capacitor to drop the mains AC current to the required lower level which may be suitable for the connected electronic circuit or load.
+
+The voltage specification of this capacitor is selected such that it's RMS peak voltage rating is much higher than the peak of the AC mains voltage in order to ensure safe functioning of the capacitor.
+This capacitor is applied in series with one of the mains inputs, preferably the phase line of the AC.
+
+When the mains AC enters this capacitor, depending on the value of the capacitor, the reactance of the capacitor comes into action and restricts the mains AC current from exceeding the given level, as specified by the value of the capacitor.
+
+However, although the current is restricted the voltage isn't, therefore if you measure the rectified output of a transformerless power supply you will find the voltage to be equal to the peak value of the mains AC, that's around 310V, and this could be alarming for any new hobbyist.
+
+But since the current may be sufficiently dropped level by the capacitor, this high peak voltage could be easily tackled and stabilized by using a zener diode at the output of the bridge rectifier.
+
+The zener diode wattage must be appropriately selected according to the permissible current level from the capacitor.
 <br/><br/>
