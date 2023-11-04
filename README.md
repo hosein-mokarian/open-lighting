@@ -83,6 +83,27 @@ Capacitive touch sensing is a unique human-machine interface technology that ena
 
 <br/><br/>
 <h3>LED Driver</h3>
+This is a very simple led constant current design using only 2 transistors, 2 resistors and an LED. This circuit allows you to use any voltage between 2V and 24V to drive almost any type of LED with power consumption up to 5W. The T2 transistor can be BC547 if you use only usual leds (the 20mA versions) but it is recommended to use BD135, BD137 or BD139 because they have a higher power dissipation.
+If the voltage incresease over 2V then a higher current will flow through the collector of T2 and so the base current of T1 will increase too bringing this transistor in the conduction state. But now the collector potential of T1 becomes more and more negative, same thing happens with the base of T2 and so T2 will slowly “closes” thus acting against the initial growth of current. In this way is achieved a stabilizing effect that provides current that is constant through the LED.
+
+Value of R is equal to the LED’s current divided by 0.5
+
+R (Ω) = I (mA)/0.5
+
+The power dissipation of R is
+
+P (W) = I2 (A) x R (Ω)
+
+Example: for a 20mA LED the value of R will be around 39Ω
+
+The current values depending on voltage for a normal red LED:
+
+5V … 15mA
+9V … 18mA
+12V … 20mA
+18V … 24mA
+24V … 27 mA
+
 <br/><br/>
 <h3>Sensors</h3>
 <br/><br/>
