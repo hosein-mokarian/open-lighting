@@ -185,6 +185,8 @@ Most part of designed circuits are simulated in LTSpice software. It is a free s
 
 
 **References**
+</br>
+https://cad.onshape.com/documents/c8b5c445c49115342c4e57ee/w/0a9b78539f8b7a2332dd6d18/e/a8e4301216dfe4dcff36735d?renderMode=0&uiState=65ef5145efe2e46af3be4648
 
 
 
