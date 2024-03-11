@@ -39,6 +39,13 @@ The overall view of designed system is shown in Fig.1.
 
 Fig.2 shows the 3d view of designed board on the Altium Designer software. 
 
+![alt text](https://github.com/hosein-mokarian/open-lighting/blob/main/Fig/MOKA_smart_light_switch_ctrl_top.JPG?raw=true)
+![alt text](https://github.com/hosein-mokarian/open-lighting/blob/main/Fig/MOKA_smart_light_switch_ctrl_bottom.JPG?raw=true)
+![alt text](https://github.com/hosein-mokarian/open-lighting/blob/main/Fig/MOKA_smart_light_switch_ac_top.JPG?raw=true)
+![alt text](https://github.com/hosein-mokarian/open-lighting/blob/main/Fig/MOKA_smart_light_switch_ac_bottom.JPG?raw=true)
+
+Fig 2. Board Image
+
 
 
 ###### Key System Specifications
